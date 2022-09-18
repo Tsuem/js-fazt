@@ -1,5 +1,5 @@
 const user = {
-    name: 'Nako',
+    name: 'Nako',  //properties
     lastname: 'Moto',
     age: 1,
     address: {
@@ -9,10 +9,11 @@ const user = {
     },
     friends: ['Maxi', 'Momo', 'Trixie'],
     active: true,
-    sendMail: function () {
+    sendMail() {          //methods
         return 'sending email...'
     }
 }
 
 console.log(user.name);
 console.log(user.address.city);
+console.log(user.sendMail());
