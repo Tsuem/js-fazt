@@ -1,28 +1,13 @@
-const hello = () => {
-    console.log('hola mundo');
-}  
-
-hello()
-
-/* function hello() {
-    console.log('hola mundo');
-    console.log('trabajando con JS');
+const hello = (name) => {
+    return 'Hola' + name
 }
 
-hello() */
+console.log(hello('Maxi'));
+console.log(hello('Nako'));
 
 
-/* function hello() {
-    return 'hola mundo'
+function add(x, y) {
+    return x + y
 }
 
-console.log(hello()) */
-
-
-/* function hello() {
-    return function() {
-        return 'hola mundo'
-    }
-}
-
-console.log(helo()()); */
+console.log(10, 30);
