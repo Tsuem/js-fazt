@@ -1,13 +1,5 @@
-const hello = (name) => {
-    return 'Hola' + name
-}
-
-console.log(hello('Maxi'));
-console.log(hello('Nako'));
-
-
-function add(x, y) {
+function add(x = 20, y = 0) {
     return x + y
 }
 
-console.log(add(10, 30));
+console.log(add());
