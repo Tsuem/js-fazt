@@ -1,12 +1,12 @@
 const heading = document.createElement('h1')
-heading.innerText = 'Hola mundo desde JS'
+heading.innerText = 'Hello from JS'
 
 const button = document.createElement('button')
 button.innerText = 'click here'
 
 button.addEventListener('click', function(){
-    console.log('Hola Mundo');
-    heading.innerText = 'Texto actualizado desde JS'
+    console.log('Hello World');
+    heading.innerText = 'Updated text from JS'
 })
 
 document.body.append(heading)
