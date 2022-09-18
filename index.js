@@ -1,5 +1,18 @@
-function add(x = 20, y = 0) {
-    return x + y
+const user = {
+    name: 'Nako',
+    lastname: 'Moto',
+    age: 1,
+    address: {
+        country: 'Argentina',
+        city: 'Cordoba',
+        street: 'Main Street 123'
+    },
+    friends: ['Maxi', 'Momo', 'Trixie'],
+    active: true,
+    sendMail: function () {
+        return 'sending email...'
+    }
 }
 
-console.log(add());
+console.log(user.name);
+console.log(user.address.city);
