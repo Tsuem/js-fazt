@@ -12,7 +12,13 @@ const user = {
     age: 23,
 }
 
-const addres = {
+const address = {
     country: "Japan",
     city: "Miyazaki",
+    street: "Main street 123"
+}
+
+const userInfo = {
+    ...user,
+    ...address
 }
